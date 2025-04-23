@@ -2,7 +2,6 @@
     {
         "first_name": "Ilya",
         "last_name": "Kravtsov",
-        "full_name": "ilyakravtsov",
         "username": "Ilya85",   
         "email": "ik@pouchnation.com",
         "password": "Kravtsov85",
@@ -21,7 +20,6 @@
     {
         "first_name": "Galuh",
         "last_name": "Alifani",
-        "full_name": "galuhalifani",
         "username": "galuhalifani",   
         "email": "galuh.adika@gmail.com",
         "password": "password123",
