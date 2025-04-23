@@ -12,7 +12,9 @@
   "rating_post_inv_support": 0,
   "rating_founder_friendly": 2,
   "status": "Verified",
-  "FounderId": 3
+  "FounderId": 3,
+  "likes": 0,
+  "likes_id": []
 },
 {
   "InvestorId": 5,
@@ -28,7 +30,9 @@
   "rating_post_inv_support": 5,
   "rating_founder_friendly": 5,
   "status": "Verified",
-  "FounderId": 3
+  "FounderId": 3,
+  "likes": 0,
+  "likes_id": []
 },
 {
   "InvestorId": 5,
@@ -44,5 +48,7 @@
   "rating_post_inv_support": 3,
   "rating_founder_friendly": 2,
   "status": "Verified",
-  "FounderId": 4
+  "FounderId": 4,
+  "likes": 0,
+  "likes_id": []
 }]
