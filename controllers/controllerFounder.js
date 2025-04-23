@@ -223,7 +223,7 @@ class Controller {
         const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
         let payload = null
         client.verifyIdToken({
-            idToken: req.body.id_token,
+            idToken: req.body.idToken,
             audience: process.env.GOOGLE_CLIENT_ID
         })
         .then((ticket) => {
