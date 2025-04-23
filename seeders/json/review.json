@@ -11,7 +11,8 @@
   "rating_dd_complexity": 3,
   "rating_post_inv_support": 0,
   "rating_founder_friendly": 2,
-  "status": "Verified"
+  "status": "Verified",
+  "FounderId": 1
 },
 {
   "InvestorId": 5,
@@ -26,7 +27,8 @@
   "rating_dd_complexity": 4,
   "rating_post_inv_support": 5,
   "rating_founder_friendly": 5,
-  "status": "Verified"
+  "status": "Verified",
+  "FounderId": 1
 },
 {
   "InvestorId": 5,
@@ -41,5 +43,6 @@
   "rating_dd_complexity": 5,
   "rating_post_inv_support": 3,
   "rating_founder_friendly": 2,
-  "status": "Verified"
+  "status": "Verified",
+  "FounderId": 2
 }]
