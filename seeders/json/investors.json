@@ -5,14 +5,16 @@
     "industry": "Media & Entertainment",   
     "website_url": "jumpvc.com",
     "linkedin_url": "https://www.linkedin.com/company/jump-informatique/",
-    "investor_type": "Venture Capital"
+    "investor_type": "Venture Capital",
+    "status": "Verified"
 },
 {
     "name": "BigMoney VC",
     "company_name": "BigMoney VC",
     "region": "Southeast Asia",
-    "industry": "Multi-Industry",   
+    "industry": "Multi-Industry",
     "website_url": "bigmoneyvc.com",
     "linkedin_url": "https://www.linkedin.com/company/jump-informatique/",
-    "investor_type": "Venture Capital" 
+    "investor_type": "Venture Capital",
+    "status": "Verified"
 }]
