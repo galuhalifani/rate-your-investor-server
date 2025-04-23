@@ -6,10 +6,8 @@ class Controller {
             category: ['technology', 'business'],
             language: 'en',
             pageSize: 6,
-            // country: 'sg'
           })
           .then(response => {
-            // console.log(response)
             res.status(200).json(response.articles)
           })
           .catch(err => {

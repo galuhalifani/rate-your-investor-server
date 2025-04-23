@@ -7,11 +7,10 @@ const {OAuth2Client} = require('google-auth-library');
 const sendEmail = require('../features/nodemailer.js')
 
 class Controller {
-    static register(req, res, next) { // OK
+    static register(req, res, next) { 
         let newUser = {}
 
         if (!req.file) {
-            console.log('GA ADA REQ FILE')
             newUser.first_name = req.body.first_name
             newUser.last_name = req.body.last_name
             if (req.body.username == '' || req.body.username == null) {
@@ -75,8 +74,6 @@ class Controller {
                 next({ name: err.name, validation: err.errors, code: 500, message: err.message })
             })
         } else {
-            console.log('ADA REQ FILE')
-
             let image = new FormData()
 
             let fileType = false
@@ -93,8 +90,6 @@ class Controller {
                 image.append('file', req.file.buffer.toString("base64"))
                 image.append('fileName', req.file.originalname)
                 image.append('useUniqueFileName', 'false')
-    
-                // console.log(req.file)
         
                 axios({
                     url: 'https://upload.imagekit.io/api/v1/files/upload',
@@ -221,13 +216,14 @@ class Controller {
 
     static googleLogin(req, res, next) {
         const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+        logger('ID Token', req.body.idToken)
+        logger('Google Login', process.env.GOOGLE_CLIENT_ID)
         let payload = null
         client.verifyIdToken({
             idToken: req.body.idToken,
             audience: process.env.GOOGLE_CLIENT_ID
         })
         .then((ticket) => {
-            // console.log(ticket, '<<<<TICKETTTTT')
             payload = ticket.getPayload();
             return payload
         })
@@ -238,7 +234,6 @@ class Controller {
             })
         })
         .then(loggedUser => {
-            // console.log(loggedUser, '<<< LOGGED USER')
             if (loggedUser) { // if user is already registered
               return loggedUser
             } else { // if user is not registered yet
@@ -246,7 +241,6 @@ class Controller {
             }
         })
         .then(user => {
-            // console.log('masuk sini!!!', user)
             let googleUser = {}
             googleUser.id = user.id
             googleUser.first_name = user.first_name
@@ -352,14 +346,12 @@ class Controller {
     }
 
     static verifyFounder(req, res, next) {
-        // console.log('MASUKKKK')
         let founderId = req.params.id
         let founder;
         Founder.findByPk(founderId)
         .then(user => {
             if (user) {
                 founder = user
-                // console.log('KETEMUUUU')
                 return Founder.update({active_status: true}, {
                     where: {
                         id: founderId
