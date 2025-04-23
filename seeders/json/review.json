@@ -1,0 +1,28 @@
+[{
+    "InvestorId": 1,
+    "reviewer": "Anonymous",
+    "title": "Slow Response",
+    "investor_role": "Lead",   
+    "investment_stage": "Seed",
+    "review": "Very slow response. I did a few meetings with the VC however the processes was not transparent and extremely slow. At the end, the deal went through, but we needed to wait more than 10 months for the entire process to pass through, since every single meeting, the subject from last meetings were repeated",
+    "rating_overall": 2,
+    "rating_professionalism": 3,   
+    "rating_speed": 1,
+    "rating_dd_complexity": 3,
+    "rating_post_inv_support": 0,
+    "rating_founder_friendly": 2
+},
+{
+    "InvestorId": 1,
+    "reviewer": "Anonymous",
+    "title": "Great Support post investment",
+    "investor_role": "Lead",   
+    "investment_stage": "Series A",
+    "review": "The VC was very helpful after the investment with the advises and introductions. They even helped me to raise the next round.",
+    "rating_overall": 5,
+    "rating_professionalism": 5,   
+    "rating_speed": 3,
+    "rating_dd_complexity": 4,
+    "rating_post_inv_support": 5,
+    "rating_founder_friendly": 5
+}]

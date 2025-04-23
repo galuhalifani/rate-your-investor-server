@@ -1,0 +1,40 @@
+[
+    {
+        "first_name": "Ilya",
+        "last_name": "Kravtsov",
+        "full_name": "ilyakravtsov",
+        "username": "Ilya85",   
+        "email": "ik@pouchnation.com",
+        "password": "Kravtsov85",
+        "profilePic": "https://ik.imagekit.io/77pzczg37zw/IK.jpg?updatedAt=1625117035721",
+        "role": "CEO & Founder",
+        "phoneNumber": "6287875343066",
+        "region": "Southeast Asia",
+        "company_name": "PouchNATION",
+        "company_website": "https://www.pouchnation.com",
+        "company_industry": "Media & Entertainment",
+        "team_size": "21-50",
+        "admin_status": false,
+        "active_status": true,
+        "linkedin_url": "https://www.linkedin.com/in/ilya-kravtsov-0108124/"
+    },
+    {
+        "first_name": "Galuh",
+        "last_name": "Alifani",
+        "full_name": "galuhalifani",
+        "username": "galuhalifani",   
+        "email": "galuh.adika@gmail.com",
+        "password": "password123",
+        "profilePic": "https://ik.imagekit.io/77pzczg37zw/Alifani_G.jpg?updatedAt=1625136098428",
+        "role": "Software Developer",
+        "phoneNumber": "6281319023264",
+        "region": "Southeast Asia",
+        "company_name": "Review Your Investor",
+        "company_website": "https://review-your-investor.com",
+        "company_industry": "E-Commerce & Retail",
+        "team_size": "1-20",
+        "admin_status": false,
+        "active_status": true,
+        "linkedin_url": "https://www.linkedin.com/in/galuh-adika-alifani-12897256/"
+    }
+]
